@@ -13,7 +13,7 @@ document.getElementById('data-form').addEventListener('submit', async (event) =>
 
     try {
         // The URL of your running backend server
-        const apiUrl = 'http://localhost:3000/bfhl';
+        const apiUrl = 'https://newapp-3c8n.onrender.com/bfhl';
 
         const response = await fetch(apiUrl, {
             method: 'POST',
